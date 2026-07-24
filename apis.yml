@@ -1,8 +1,25 @@
 aid: brilliant-planet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brilliant-planet.png
 name: Brilliant Planet
-description: Brilliant Planet is a company surfaced as a portfolio company of union-square-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Brilliant Planet is a carbon-removal company that grows microalgae in open-air ponds on
+  otherwise-unproductive coastal desert land, using seawater rather than fresh water, to sequester atmospheric
+  carbon dioxide at scale. Harvested algal biomass is dried and stored to lock the captured carbon away durably,
+  while the process also deacidifies the seawater it returns. The company operates research and demonstration
+  facilities in coastal Morocco and is developing measurement, reporting, and verification approaches for its
+  nature-based carbon capture. It is backed by Union Square Ventures and other climate-focused investors. This
+  API Evangelist profile is a company/provider record; Brilliant Planet publishes no public developer API or
+  documentation surface at this time (its primary web presence is access-restricted).
 url: https://raw.githubusercontent.com/api-evangelist/brilliant-planet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Carbon Removal
+- Carbon Capture
+- Climate
+- Sustainability
+- Algae
+- Biotechnology
+- CleanTech
+- Nature-Based Solutions
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/brilliant-planet-domain-security.yml
 - type: Website
   url: https://www.brilliantplanet.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
